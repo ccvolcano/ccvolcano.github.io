@@ -1,0 +1,75 @@
+/*页面头部header区*/
+/*顶端top*/
+.top{width:100%; height: 46px; background-color:white;}
+.top img{width:80px;height:30px;float:left;margin-top:10px;margin-left:60px;}
+.top ul {list-style:none;}
+.top ul li{line-height: 15px;float: left;margin-right: 20px; }
+.top ul li a{color:#666;text-decoration:none}
+.top ul li a:hover{color:#000; text-decoration:underline}
+.search{float:right;margin-top:5px;width:400px;}
+
+
+/*标题栏nav*/
+header { width:100%; height: 46px;border:thin solid grey; background-color:white;border-style: solid none}/*定义页面头部的大小以及样式*/
+header nav {  margin: 0 auto; width: 980px;  text-align: center }/*定义导航栏内横居中竖不居中，导航栏宽980px，文字水平居中对齐*/
+header nav ul li{ line-height: 15px;list-style:none; float: left;margin-right: 40px; }/*定义列表内容行距15px，清楚列表原点，列表横向显示，列表项右边空出40px的距离*/
+header nav ul li a { color:#666;text-decoration:none}/*定义超链接颜色，清除超链接默认下划线*/
+header nav ul li a:hover { color:#000; text-decoration:underline}/*定义鼠标悬停在超链接上的颜色以及下划线*/
+
+
+
+
+
+/*页面主体mainContent*/
+body{margin:0px;background-color:#ddd6cc}/*定义页面颜色*/
+.pages { padding: 30px 60px 25px; background: #F4F3EF; text-align: right;}
+.pages span { background: #f16e50; color: #fff; }
+.pages a { background: #fff; color: #454545; padding: 5px 8px; border: none; margin: 0 0 0 5px; }
+.pages span { padding: 5px 8px; border: none; margin: 0 0 0 5px; }
+.pages a:hover { background: #CCC }
+
+.map{width:950px;height:300px;background: white}
+
+.album{margin:30px auto;width:800px;text-align:center;}
+.album ul li{float:left;width:150px;margin:10px;list-style:none;}
+.album ul li img{width:150px;height:150px;border:0}
+.album ul li a:link{color:#333333; text-decoration:none;}
+.album ul li a:visited{color:#333333; text-decoration:none;}
+.album ul li a:hover{color:#ff0000; text-decoration:underline;}
+.album ul li  a:active{color:#ff0000; text-decoration:underline;}      
+
+
+.message{margin:30px left;}
+.message ul li{margin:10px;list-style:none;}
+
+.contact{margin:0 auto;}
+.contact ul li{list-style:none;margin:0 auto;}
+.contact ul li img{margin:0 20px;}
+
+/*定义登录界面*/
+.login{width:950px;height:500px;margin:0 auto;}
+.login table{margin:150px auto;}
+.register{width:950px;height:500px;margin:0 left;}
+
+
+
+/*底部区footer*/
+footer{margin: auto;border-top: 10px solid #f16e50; background: #242221; width: 100%; height:90px;background:black;  color:white;text-align: center; }/*定义底部区样式，显示范围，颜色以及字体的居中*/
+footer ul a{color: #f16e50; text-decoration:none}/*定义超链接颜色，清除超链接默认下划线*/
+footer ul a:hover{color:#ff8b70;text-decoration:underline}/*定义鼠标悬停在超链接上的颜色以及下划线*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

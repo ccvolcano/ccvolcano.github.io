@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户注册</title>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+	<style type="text/css">
+	table{background-color:#e8e5dd;margin-top:20px;margin-bottom:20px;margin-left:60px;margin-right:60px}
+	.line{margin-left:30px;}
+	.caption{line-height:25px;background-color:#f16e50;
+	text-indent:30px;color:white}
+	.page{background-color:white;text-indent:30px;border-bottom:10px solid #e8e5dd}
+	.h1{margin-top:30px}
+	.h1span{font-weight:bold;font-size:25px;}
+	.content{margin:30px}
+		.content h2{text-align: right;}
+	</style>
+</head>
+
+<body>
+<div class="top">
+		<a href="index.html"><img src="images/logo.png" height="23px"> </a>
+		<div class="search">
+		
+			<ul>	
+			
+				<li><a href="login.html">登录</a></li>
+				<li><a href="register.html">注册</a></li>
+			<li>
+				<form action="" method="post" name="searchform" id="searchform">
+				<input name="keyboard" id="keyboard" type="text" value="请输入关键字词">
+				<input name="Submit" type="submit" value="搜索" >
+				</form>
+			</li>
+			
+			</ul>
+			
+		</div>
+</div>
+<header>
+	<nav id="nav">
+   		<ul>
+    		<li><a href="index.html">网站首页</a></li>
+   			<li><a href="3.html">个人介绍</a></li>
+   			<li><a href="4.html">我的相册</a></li>
+    		<li><a href="5.html" >留言板</a></li>
+    		<li><a href="6.html" >关于本站</a></li>     
+    		<li><a href="7.html" >联系我们</a></li>
+   		</ul>
+ 	</nav>
+</header>
+
+<table align="center">
+	<tr>
+	<td align="center">
+	<img src="images/01.png" style="width:170px;height:170px;">
+	</td>
+	
+	<td rowspan="10" class="page">
+		<div class="h1">
+	    <img src="images/logo.jpg" width="25px">
+		<span class="h1span">账号注册</span><br>
+		</div>
+		<hr>
+    	
+    	<div class="register">
+   	  	<form id="userregister" name="userregister">
+    	<table width="350" border="1"  rules="none" cellpadding="5px">
+    	      <tr>
+    	     	<td>*昵称</td>
+    	        <td><input type="text" name="username" id="username"></td>
+  	        </tr>
+  	        
+    	      <tr>
+    	        <td>*密码</td>
+    	        <td><input type="password" name="password" id="password"></td>
+  	        </tr>
+    	      <tr>
+    	        <td>*确认密码&nbsp;</td>
+    	        <td><input type="yespassword" name="yespassword" id="yespassword"></td>
+  	        </tr>
+  	         <tr>
+    	        <td>博客地址&nbsp;</td>
+    	        <td><input type="text" name="address_email" id="address_email"></td>
+  	        </tr>
+  	         <tr>
+    	        <td>QQ&nbsp;</td>
+    	        <td><input type="text" name="QQ" id="QQ"></td>
+  	        </tr>
+    	      <tr>
+    	        <td>*常用邮箱&nbsp;</td>
+    	        <td><input type="text" name="email" id="email"></td>
+  	        </tr>
+    	      <tr>
+    	        <td>姓名&nbsp;</td>
+    	        <td><input type="text" name="name" id="name"></td>
+  	        </tr>
+    	      <tr>
+    	       <td>*性别&nbsp;</td>
+    	        <td><input type="radio" name="sex">男
+    	        	<input type="radio" name="sex">女
+    	        	<input type="radio" name="sex">保密
+    	        </td>
+  	        </tr>
+    	      <tr>
+    	        <td>所在地&nbsp;</td>
+    	        <td><select name="birthday" >
+    	        	<option>----请选择----</option>
+    	        	<option>新乡</option>
+    	        	<option>北京</option>
+    	        	<option>上海</option>
+    	        	<option>广东</option>
+    	        	<option>深圳</option>
+    	        	<option>杭州</option>
+    	        	<option>郑州</option>      	
+    	        	<option>武汉</option>
+    	        	<option>西安</option>
+    	        </select></td>
+  	        </tr>
+    	      <tr>
+    	        <td>验证码&nbsp;</td>
+    	        <td><input type="text" name="yanzheng" id="yanzheng"><br>
+    	        	
+    	        </td>
+    	        <tr>
+    	        	<td></td>
+    	        	<td><img src="images/yanzheng.jpg" width="80px"></td>
+    	        </tr>
+    	        
+  	        </tr>
+    	      <tr>
+    	        <td colspan="2" align="center"><input type="button" value="登 录" onclick="r();"/> <input type="reset" value="重 置"/>&nbsp;</td>
+ 
+  	        </tr>
+  	    </table>
+		</form>
+        </div>
+		
+		
+	
+		
+		
+	</td>
+	
+	</tr>
+
+	<tr>
+	<td class="caption">最新照片</td>
+	</tr>
+	<tr align="center">
+	<td>
+		<table>
+		<tr>
+			<td><img src="images/02.jpg" style="width:50px;height:50px;"></td>
+			<td><img src="images/03.jpg" style="width:50px;height:50px;"></td>
+			<td><img src="images/04.jpg" style="width:50px;height:50px;"></td>
+			<td><img src="images/05.jpg" style="width:50px;height:50px;"></td>
+		</tr>
+		<tr>
+			<td><img src="images/06.jpg" style="width:50px;height:50px;"></td>
+			<td><img src="images/07.jpg" style="width:50px;height:50px;"></td>
+			<td><img src="images/08.jpg" style="width:50px;height:50px;"></td>
+			<td><img src="images/09.jpg" style="width:50px;height:50px;"></td>
+		</tr>
+		</table>
+	</td> 
+	</tr>
+	
+	<tr>
+	<td class="caption">小调查</td>
+	</tr>
+	<form action=" " method="post">
+	<tr>
+	<td>
+		<div class="line">
+	        您认为本站的布局怎么样：<br>
+	        <input name="basketball" type="checkbox" value="basketball">好<br>
+	        <input name="football" type="checkbox" value="football">还行<br>
+	        <input name="volleyball" type="checkbox" value="volleyball">差<br>
+	        <input name="submit" type="submit" value="提交">
+	    </div>
+	</td>   
+	</tr>
+	</form>
+	</table>		
+
+	
+	
+<footer>
+	<ul>
+       <a href="/">帮助中心</a>&nbsp;|&nbsp;
+       <a href="/">空间客服</a>&nbsp;|&nbsp;
+       <a href="/">投诉中心</a>&nbsp;|&nbsp;
+       <a href="/">空间协议</a>
+    </ul>
+     <p>Design by chao</p>
+</footer>
+</body>
+</html>
